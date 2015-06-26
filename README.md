@@ -18,3 +18,5 @@ handle:
 
 后保存即可实现伪静态
 - 访问应用，安装配置WordPress，大功告成
+## 关于
+[Ilinio's Echo](http://ilinio.com)
