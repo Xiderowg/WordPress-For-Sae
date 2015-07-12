@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * WordPress基础配置文件。
  *
@@ -19,7 +19,8 @@
 define('SAE_STORAGE', 'wordpress');
 
 /** 文件上传路径 */
-define('SAE_DIR','/uploads');
+define(‘SAE_DIR’,’saestor://’.SAE_STORAGE.’/uploads’);
+define(‘SAE_URL’, ‘http://’.$_SERVER[‘HTTP_APPNAME’].’-‘.SAE_STORAGE.’.stor.sinaapp.com/uploads’);
 
 
 // ** MySQL 设置 - 已适配SAE,无需修改 ** //
